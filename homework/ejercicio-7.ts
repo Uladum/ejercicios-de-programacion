@@ -10,5 +10,7 @@ function max(a: number, b: number, c: number) {
   return maxArgument
 }
 
-let maxValue = max(5, 2, 6)
-console.log(maxValue)
+// Si una variable no va a sufrir modificaciones entonces se usarán las constantes y se nombrarán en mayúscula.
+// let maxValue -> const MAX_VALUE
+const MAX_VALUE = max(5, 2, 6)
+console.log(MAX_VALUE)
